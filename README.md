@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>pagin of John Doe</title>
   </head>
+<body class="conteiner">
 <style> 
 @charset "utf-8" ;
 
@@ -349,8 +350,9 @@ footer#rodape{
     border-top: 3px solid #fff ;
     padding-top: 40px ;
     background-color: gray;
-}</style>
-<body class="conteiner">
+}
+</style>
+
   <section id="menu">
   <nav id="menu">
   <a id="menu1" href="#menu" target="self"> Home </a>
