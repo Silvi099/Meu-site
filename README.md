@@ -10,6 +10,346 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>pagin of John Doe</title>
   </head>
+<style> 
+@charset "utf-8" ;
+
+body.conteiner{
+    height: auto;
+    width: auto ;
+    background-color: black ;
+    font-family: sans-sarif-arial ;
+}
+nav#menu{
+    position: fixed;
+    margin:-50px 50px 20px -90px;
+}
+a#menu1{
+    color: white ;
+    background-color:rgba( 0,0,0,0.4) ;
+    padding:13px 15px  ;
+    padding-right: 14px ;
+    font-size: 27px;
+    margin-left: 90px ;
+    width:25vw;
+    display: inline;
+}
+a.menu2{
+    color: white ;
+    background-color:rgba(0,0,0,0.4);
+    padding:13px 15px;
+    width:25vw;
+    font-size: 27px;
+    display: inline;
+}
+a.menu3{
+    color: white ;
+    background-color:rgba(0,0,0,0.4);
+    padding:13px 15px ;
+    font-size: 27px;
+    width:25vw;
+    display: inline;
+}
+a.menu4{
+    color: white ;
+    background-color:rgba(0,0,0,0.4);
+    padding:13px 15px ;
+    padding-right: 10px ;
+    font-size: 27px;
+    width:25vw;
+    display: inline;
+}
+  h1{
+      font-size: 52px ;
+      color: whitesmoke ;
+      font-family: arial ;
+      text-align: center ;
+      margin:80px 42px 0px 0px ;
+      padding-top: 32px ;
+  }
+h2{
+    padding-top: 100px ;
+    font-size: 39px ;
+    color: white ;
+    padding-left: 20px ;
+    margin-bottom: 130px ;
+}
+h2.tabela{
+    color: black ;
+    margin:10% 50% ;
+    font-size: 42px ;
+    padding: 0px 0px 0px 0px;
+}
+p.p{
+    color: black ;
+    font-size: 37px ;
+    margin:0% 50%;
+    padding: -60px 0px -60px 0px  ;
+} 
+  p#descricao{
+      color: white ;
+      font-size: 37pt ;
+      text-align: center ;
+      padding-bottom: 70px;
+      padding-top: 20px ;
+  }
+h3{
+    font-size: 41px ;
+    color: aliceblue ;
+    padding-left: 30px ;
+    padding-bottom: 27px ;
+    border-bottom: 4px solid white ;
+}
+h4{
+    font-size: 12px ;
+    color: dimgray ;
+    text-align: center;
+}
+h6{
+    color: green;
+    padding-left: 120px ;
+    font-size: 50px;
+    display: none ;
+}
+  p.nome{
+      color: white ;
+    font-size: 39px ;
+    margin: 22px 39px -120px 0px ;
+    border-bottom: 9px dashed with ;
+    padding-bottom: 123px ;
+  }
+  p#name{
+      color: white ;
+    text-align: justify ;
+    font-size: 29px ;
+    text-indent: 18px ;
+    margin: 200px 0px -80px 0px ;
+  }
+img#smoke{
+    width: 80vw ;
+    height: 40vh ;
+    margin:17% 6% ;
+}
+  img{
+      width:600px ;
+      height: 500px ;
+      padding: 15px ;
+  }
+img#foto1{
+    width:96% ;
+    height: 34em;
+    margin-top: 150px;
+}
+img#foto2{
+    width: 96%;
+    height: 67em;
+    margin-top: 30px;
+}
+img#foto3{
+    width:96%;
+    height: 37em;
+    margin-top: 30px;
+}
+img#foto4{
+    width:96% ;
+    height: 56em;
+    margin-top: 30px;
+    
+}
+img#foto5{
+    width:96% ;
+    height: 37em;
+    margin-top: 30px;
+}
+img#foto6{
+    width:96% ;
+    height: 35em;
+    margin-top: 30px;
+}
+img#foto7{
+    width:96% ;
+    height: 42em;
+    margin-top: 30px;
+}
+img#foto8{
+    width:96% ;
+    height: 42m;
+    
+}
+p.skills{
+    text-align: center ;
+    color: aliceblue ;
+    font-size: 25px ;
+    padding-bottom: 40px ;
+}
+div#caixa{
+    background-color: aliceblue ;
+    padding-bottom: 0px;
+}
+p#texto{
+    width: 100% ;
+    text-align: justify ;
+    font-family: arial san-serif;
+    text-indent: 39px ;
+    color: aliceblue ;
+    font-size:36px;
+}
+i.fas fa-map-marker{
+    font-size-adjust: 29px ;
+}
+p#testo{
+    font-size: 35px ;
+    color: whitesmoke ;
+    margin-left: 15px;
+}
+form.inputs{
+    color: aliceblue ;
+}
+label.branco{
+    color: aliceblue ;
+    font-size: 50px ;
+    width:90VW ;
+}
+a.fas fa-download{
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 90px;
+}
+input.submite{
+    font-size: 90px;
+    align-items: center ;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px ;
+}
+input.submite:hover{
+    background-color: darkgray ;
+    transition: 0.3s;
+}
+input.submite:onmauseout{
+    background-color: whitesmoke;
+    transition: 0.2s;
+}
+a#link{
+    font-size: 26px ;
+    background-color: aliceblue ;
+    padding:12px;
+    margin-bottom: 30px;
+}
+a#link:hover{
+    background-color: darkgray;
+    transition: 0.1s ;
+}
+table#tabela{
+    background-color: gray;
+    padding:2px 0px 20px 0px;
+    margin: 32px;
+    width:94vw;
+}
+table#tabela:hover{
+    background-color: white;
+    transition: 0.2s;
+}
+ul li {
+    list-style-type: none;
+    color: azure;
+}
+li.skills1{
+    font-size: 40px ;
+    border-bottom: 45px solid #fff;
+    border-left-width: 95%;
+    margin-left: -20px;
+}
+li.skills2{
+    font-size: 37px;
+    border-bottom: 45px solid #fff;
+    width: 90%;
+    margin-left: -20px;
+}
+li.skills3{
+    font-size: 37px ;
+    border-bottom: 45px solid #fff;
+    width: 82% ;
+    margin-left: -20px;
+}
+input.tamanho{
+    font-size: 36px;
+    position: relative;
+}
+div#price{
+    padding: -40px;
+    margin: 0px 0px 0px -30px;
+}
+td#basic{
+    background-color: darkgray ;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px 120px 10px 120px;
+    color: black;
+    border-bottom:5px solid darkgrey;
+    margin: 98%;
+}
+td#basico2{
+    background-color:  darkgray ;
+    font-size: 153px;
+    text-align: center;
+    padding: 10px 120px 10px 120px;
+    color: black;
+    border-bottom:5px solid darkgrey;
+    margin:98%;
+}
+td#wd{
+    padding-top: 16px;
+    border-bottom: 3px solid darkgray ;
+    font-size: 58px;
+    text-align: center;
+    color: black;
+    border-bottom: darkgrey solid 5px ;
+    width:98%;
+}
+td#phtg{
+    font-size: 58px;
+    text-align: center ;
+    border-bottom: 5px solid darkgrey;
+    color: black;
+    width:98%;
+}
+td#space{
+    font-size: 58px;
+    border-bottom: 5px solid darkgrey;
+    text-align:center;
+    color: black;
+    width:98%;
+}
+td#ms{
+    font-size: 58px;
+    border-bottom: 5px solid darkgrey;
+    text-align: center;
+    color: black;
+    width:98%;
+}
+td#price{
+    font-size: 86px;
+    text-align: center;
+    color: black;
+    width:98%;
+}
+td#week{
+    font-size: 58px;
+    text-align: center;
+    color:black;
+    border-bottom: 5px solid darkgrey;
+    width:98%;
+}
+input.signup{
+    font-size: 60px;
+    margin:0% 0% 0% 36%;
+    background-color: darkgrey ;
+}
+footer#rodape{
+    border-top: 3px solid #fff ;
+    padding-top: 40px ;
+    background-color: gray;
+}</style>
 <body class="conteiner">
   <section id="menu">
   <nav id="menu">
